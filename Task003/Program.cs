@@ -4,3 +4,15 @@
 8 -> 2, 4, 6, 8
 */
 
+Console.WriteLine("Введите число: ");
+
+int number = Convert.ToInt32(Console.ReadLine());
+
+for (int a = number / number + 1; a <= number; a = a + 2)
+{
+    Console.Write(a);
+    if (a < number - 1)
+    {
+        Console.Write(", ");
+    }
+}
