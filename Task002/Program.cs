@@ -17,15 +17,3 @@ else
 {
     Console.WriteLine("Нечетное");
 }
-
-/*
-switch (number % 2)
-{
-    case 0:
-        Console.WriteLine("Четное");
-        break;
-    default:
-        Console.WriteLine("Нечетное");
-        break;
-}
-*/
